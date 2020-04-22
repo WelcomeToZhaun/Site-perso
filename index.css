@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+}
+
 .navbar{
     color: white;
     background-color: transparent;
@@ -15,7 +19,7 @@
     text-align: center;
     width: auto;
     position: relative;
-    left: 60%;
+    left: 40%;
 }
 
 .navbar ul li{
@@ -29,13 +33,21 @@
     text-decoration: none;
     font-size: 150%;
     white-space: nowrap;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
 }
 
-.navbar span{
+.navbar ul li a:hover{
+    color: #F8BE00;
+    text-decoration: underline;
+}
+
+.navbar h1{
     display: block;
     position: relative;
-    left: 10%;
+    left: 15%;
     font-size: 150%;
+    text-transform: uppercase;
 }
 
 .navbar.scroll{
@@ -57,10 +69,19 @@ header{
 header h1{
     color: white;
     font-size: 300%;
-    margin: 0.5%;
+    margin: 0.5% 0;
+    text-transform: uppercase;
+}
+
+header  h2{
+    color: white;
+    margin: 0.5% 0;
+    letter-spacing: 0.7px;
 }
 
 .container{
     position: relative;
-    top: 20%;
+    top: 35%;
+    letter-spacing: 0.7px;
+    margin: 0;
 }
