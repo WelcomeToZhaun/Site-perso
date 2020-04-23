@@ -61,9 +61,6 @@ header{
     width: 100%;
     display: block;
     text-align: center;
-    position: absolute;
-    top: 0;
-    z-index: 0;
 }
 
 header h1{
@@ -84,4 +81,46 @@ header  h2{
     top: 35%;
     letter-spacing: 0.7px;
     margin: 0;
+}
+
+.mail{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.mail h3{
+    position: relative;
+    left: 15%;
+}
+
+.mail a{
+    color: white;
+    text-decoration: none;
+    font-size: 130%;
+    position: relative;
+    left: 50%;
+}
+
+.mail a:hover{
+    color: #F8BE00;
+    text-decoration: underline;
+}
+
+.more{
+    background-color: #7E7E84;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.more h4{
+    position: relative;
+    left: 18%;
+}
+
+.more .github{
+    position: relative;
+    left: 50%;
 }
