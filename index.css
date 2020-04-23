@@ -1,6 +1,9 @@
 body{
     margin: 0;
+    margin-top: -1%;
 }
+
+    /* barre de navigation */
 
 .navbar{
     color: white;
@@ -18,13 +21,12 @@ body{
     display: flex;
     text-align: center;
     width: auto;
-    position: relative;
-    left: 40%;
+    margin: 0 30%;
 }
 
 .navbar ul li{
     list-style: none;
-    margin: 0 5%;
+    margin: 0 1.5%;
 }
 
 .navbar ul li a{
@@ -44,15 +46,19 @@ body{
 
 .navbar h1{
     display: block;
-    position: relative;
-    left: 15%;
+    margin-left: 10%;
     font-size: 150%;
     text-transform: uppercase;
+    white-space: nowrap;
 }
 
 .navbar.scroll{
     background-color: black;
 }
+
+    /* barre de navigation */
+
+    /* "Acceuil" */
 
 header{
     background-image: url("images/back.jpg");
@@ -61,6 +67,8 @@ header{
     width: 100%;
     display: block;
     text-align: center;
+    position: relative;
+    top: 0;
 }
 
 header h1{
@@ -82,6 +90,126 @@ header  h2{
     letter-spacing: 0.7px;
     margin: 0;
 }
+
+    /* "Acceuil" */
+
+    /* Projets */
+
+main .apropos{
+    background-color: #6280AC;
+    text-align: center;
+    padding: 10px;
+    color: #F8BE00;
+}
+
+main .apropos h1{
+    color: #F8BE00;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+main .apropos .container1{
+    max-width: 50%;
+}
+
+main .apropos .container1 p{
+    font-size: 120%; 
+    text-align: justify;
+}
+
+    /* SKILLS */
+
+.content{
+    display: flex;
+}
+
+.container2{
+    margin-left: 10%;
+}
+
+#skills {
+    padding: 20px 15px 75px 15px;
+    color: #fff;
+    }
+    
+    .skills-text {
+    min-width: 30em;
+    font-size: 20px;
+    right: 5em;
+    bottom: 2em;
+    }
+    
+    .skills-list {
+    overflow: hidden;
+    position: relative;
+    z-index: 10;
+    }
+    
+    .skill-name:after {
+    background-color: #999797;
+    content: '';
+    display: block;
+    height: 1rem;
+    position: relative;
+    top: 3px;
+    /*top: 1rem;*/
+    width: 100%;
+    }
+    
+    .skill-percent {
+    font-size: 0;
+    height: 1rem;
+    position: relative;
+    top: -.8rem;
+    -webkit-transition: 3s linear;
+    transition: 3s linear;
+    width: 0;
+    margin-left: 0;
+    }
+    
+    /* SKILL BAR COLORS */
+
+    .skill-percent-web {
+    background-color: #F8BE00;
+    }
+    
+    .skill-percent-js {
+    background-color: #F8BE00;
+    }
+    
+    .skill-percent-php {
+    background-color: #F8BE00;
+    }
+    
+    .skill-percent-sql {
+    background-color: #F8BE00;
+    }
+    
+    .skill-percent-c {
+    background-color: #F8BE00;
+    }
+    
+    .skill-percent-py {
+    background-color: #F8BE00;
+    }
+    
+    .skill-percent-unix {
+    background-color: #F8BE00;
+    }
+    
+    .skill-percent-java {
+    background-color: #F8BE00;
+    }
+    
+    .skill-percent-projet {
+    background-color: #F8BE00;
+    }
+
+    /* SKILLS */
+
+    /* Projets */
+
+    /* Footer */
 
 .mail{
     background-color: black;
@@ -117,10 +245,23 @@ header  h2{
 
 .more h4{
     position: relative;
-    left: 18%;
+    left: 17%;
+    font-size: 120%;
+    margin: 0;
+}
+
+.more figure{
+    margin: 5px;
 }
 
 .more .github{
     position: relative;
-    left: 50%;
+    left: 55%;
 }
+
+.more .gitlab{
+    position: relative;
+    left: 62%;
+}
+
+    /* Footer */
