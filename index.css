@@ -52,9 +52,23 @@ body{
     white-space: nowrap;
 }
 
+.navbar .cv{
+    background-color: transparent;
+    margin-left: 2%;
+    margin-top: 5px;
+}
+
 .navbar.scroll{
     background-color: black;
 }
+
+.navbar.scroll .cv{
+    background-color: white;
+    padding-left: 2px;
+    padding-top: 2px;
+}
+
+
 
     /* barre de navigation */
 
@@ -238,16 +252,23 @@ main .projets h1{
     align-items: center;
 }
 
-.projets figure{
-    max-width: 50%;
+.projets a{
+    color: #F8BE00;
+    text-decoration: none;
 }
 
-.projets figcaption h3{
-    margin: 0;
+.projets a:hover{
+    text-decoration: underline;
 }
 
-.projets figcaption h4{
+.projets a figcaption h3{
     margin: 0;
+    font-size: 130%;
+}
+
+.projets a figcaption h4{
+    margin: 0;
+    font-size: 110%;
 }
 
     /* Projets */
@@ -299,12 +320,17 @@ main .projets h1{
 
 .more .github{
     position: relative;
-    left: 58%;
+    left: 56%;
 }
 
 .more .gitlab{
     position: relative;
-    left: 59%;
+    left: 57%;
+}
+
+.more .viadeo{
+    position: relative;
+    left: 58%;
 }
 
     /* Footer */
@@ -333,11 +359,21 @@ main .projets h1{
     }
 
     .more .github{
-        left: 55%;
+        left: 53%;
     }
 
     .more .gitlab{
-        left: 57%;
+        left: 54%;
+    }
+
+    .more .viadeo{
+        left: 55%;
+    }
+}
+
+@media(max-width:1040px){
+    .apropos .container1 figure{
+        display: none;
     }
 }
 
