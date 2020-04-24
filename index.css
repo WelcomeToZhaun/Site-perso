@@ -13,7 +13,7 @@ body{
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 1;
+    z-index: 99;
     transition: all 1s ease-in-out;
 }
 
@@ -96,7 +96,7 @@ header  h2{
     /* Projets */
 
 main .apropos{
-    background-color: #6280AC;
+    background-color: #0F2C54;
     text-align: center;
     padding: 10px;
     color: #F8BE00;
@@ -209,6 +209,30 @@ main .apropos .container1 p{
     }
 
     /* SKILLS */
+
+    /* Projets */
+
+main .projets{
+    background-color: #0F2C54;
+    text-align: center;
+    padding: 10px;
+    color: #F8BE00;
+}
+
+main .projets h1{
+    color: #F8BE00;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.projets .liens{
+    display: flex;
+}
+
+.projets .liens figure{
+    max-width: 50%;
+    width: 50%;
+}
 
     /* Projets */
 
