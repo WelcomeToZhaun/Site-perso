@@ -373,8 +373,25 @@ main .projets h1{
 }
 
 @media(max-width:1040px){
-    .apropos .container1 figure{
-        display: none;
+    header{
+        height: 50vh;
+    }
+
+    .content{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    main .apropos .container1{
+        max-width: 1000%;
+        width: 100%;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .container2{
+        width: 100%;
+        margin: 0;
     }
 }
 
