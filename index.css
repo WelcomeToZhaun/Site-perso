@@ -110,6 +110,8 @@ main .apropos h1{
 
 main .apropos .container1{
     max-width: 50%;
+    padding-left: 5%;
+    padding-top: 1%;
 }
 
 main .apropos .container1 p{
@@ -124,7 +126,7 @@ main .apropos .container1 p{
 }
 
 .container2{
-    margin-left: 10%;
+    margin-left: 5%;
 }
 
 #skills {
@@ -161,9 +163,6 @@ main .apropos .container1 p{
     height: 1rem;
     position: relative;
     top: -.8rem;
-    -webkit-transition: 3s linear;
-    transition: 3s linear;
-    width: 0;
     margin-left: 0;
     }
     
@@ -171,38 +170,42 @@ main .apropos .container1 p{
 
     .skill-percent-web {
     background-color: #F8BE00;
+    width: 90%;
     }
     
     .skill-percent-js {
     background-color: #F8BE00;
-    }
-    
-    .skill-percent-php {
-    background-color: #F8BE00;
+    width: 20%;
     }
     
     .skill-percent-sql {
     background-color: #F8BE00;
+    width: 45%;
     }
     
     .skill-percent-c {
     background-color: #F8BE00;
+    width: 80%;
     }
     
     .skill-percent-py {
     background-color: #F8BE00;
+    width: 85%;
     }
     
     .skill-percent-unix {
     background-color: #F8BE00;
+    width: 50%;
     }
     
     .skill-percent-java {
     background-color: #F8BE00;
+    width: 60%;
     }
     
     .skill-percent-projet {
     background-color: #F8BE00;
+    width: 75%;
     }
 
     /* SKILLS */
