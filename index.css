@@ -58,6 +58,8 @@ body{
 
     /* barre de navigation */
 
+    /* barre de navigation tablette et portable */
+
     /* "Acceuil" */
 
 header{
@@ -225,13 +227,19 @@ main .projets h1{
     text-transform: uppercase;
 }
 
-.projets .liens{
+.projets .liens .ligne1{
     display: flex;
+    align-items: center;
+    padding-top: 1%;
 }
 
-.projets .liens figure{
+.projets .liens .ligne2{
+    display: flex;
+    align-items: center;
+}
+
+.projets figure{
     max-width: 50%;
-    width: 50%;
 }
 
     /* Projets */
@@ -283,12 +291,46 @@ main .projets h1{
 
 .more .github{
     position: relative;
-    left: 55%;
+    left: 58%;
 }
 
 .more .gitlab{
     position: relative;
-    left: 62%;
+    left: 59%;
 }
 
     /* Footer */
+
+    /* Format tablette et portabel*/
+
+@media(max-width:1330px){
+    .navbar ul{
+        margin: 0 10%;
+    }
+
+    .navbar h1{
+        margin-left: 2%;
+    }
+
+    .mail h3{
+        left: 2%;
+    }
+
+    .mail a{
+        left: 40%;
+    }
+
+    .more h4{
+        left: 7%;
+    }
+
+    .more .github{
+        left: 55%;
+    }
+
+    .more .gitlab{
+        left: 57%;
+    }
+}
+
+    /* Format tablette et portabel*/
