@@ -1,4 +1,4 @@
-body{
+html,body{
     margin: 0;
     margin-top: -1%;
     scroll-behavior: smooth;
@@ -338,7 +338,7 @@ main .projets h1{
 
     /* Format tablette et portabel*/
 
-@media(max-width:1330px){
+@media(max-width:1500px){
     .navbar ul{
         margin: 0 10%;
     }
