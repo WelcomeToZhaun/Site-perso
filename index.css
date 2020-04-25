@@ -394,6 +394,9 @@ main .projets h1{
         margin: 0;
     }
 
+    .proj4{
+        margin-top: -16px;
+    }
 }
 
     /* Format tablette et portabel*/
